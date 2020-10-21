@@ -1,4 +1,4 @@
-# Contextual Games: Multiagent Learning with Side Information
+# Contextual Games: Multi-Agent Learning with Side Information
 
 
 This repository contains the code associated to the paper:
