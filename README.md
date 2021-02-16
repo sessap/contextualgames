@@ -1,7 +1,7 @@
 # Contextual Games: Multi-Agent Learning with Side Information
 
 
-This repository contains the code associated to the paper:
+This repository contains the code associated with the paper:
 > **Contextual Games: Multi-Agent Learning with Side Information**
 > *Pier Giuseppe Sessa, Ilija Bogunovic, Andreas Krause, Maryam Kamgarpour*.
 > Neural Information Processing Systems (NeurIPS), 2020.
