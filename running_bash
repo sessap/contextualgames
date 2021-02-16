@@ -1,0 +1,7 @@
+#!/bin/bash
+
+python repeated_routing.py GPMW --num_controlled 0 --runs 1
+python repeated_routing.py RobustLinExp3 --runs 1
+python repeated_routing.py GPMW --runs 1
+python repeated_routing.py cGPMWpar --version 0 --runs 1
+python repeated_routing.py cGPMWpar --version 2 --runs 1
