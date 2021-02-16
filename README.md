@@ -14,5 +14,10 @@ You can install the required dependences via:
 pip install -r requirements.txt
 ```
 
-The script `Repeated_Routing.py` simulates the repeated traffic routing game between the agents in the network. The routing algorithm to be used by the agents should be manually specified as a parameter (Line 38 in the script). 
-Resulting time-averaged losses and congestion can be plotted running `Plotting.py`.
+The script `repeated_routing.py` simulates the repeated routing game between the agents in the network and can be run as: 
+```setup
+python repeated_routing.py ALGO --runs N_RUNS
+```
+where `ALGO` is the algorithm used by the agents (see `algorithms.py` for possible baselines). The overall simulation is repeated `N_RUNS` times.
+You can also use the bash script `running_bash` to run multiple simulations.
+Resulting averaged losses and congestion can be plotted using the script `plotting.py`.
